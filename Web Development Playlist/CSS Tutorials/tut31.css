@@ -1,0 +1,31 @@
+h1 {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* to select all the paragraphs inside the div
+div p {
+  
+} */
+
+/* to select paragraphs which are inside li and li which are inside div
+div li p {
+  background-color: green;
+  color: yellow;
+} */
+
+/* to target the direct child of a parent we have to use the > symbol
+here p is the direct child of the div tag
+div > p {
+    background-color: pink;
+    color: darkblue;
+} */
+
+/* to target the elements based on its previous sibling  
+here p is targeted and div is the previous sibling 
+div + p {
+    background-color: gray;
+    color: darkblue;
+} */

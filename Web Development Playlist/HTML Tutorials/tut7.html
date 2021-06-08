@@ -1,0 +1,73 @@
+<!-- Learning Lists and Tables -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists and Tables</title>
+</head>
+<body>
+    <!-- Ul tags represents unordered list the list items created in the ul tag wont have any numbering -->
+    <!-- LI tag means list item these tags must be used inside ul or ol tag -->
+    <!-- OL tag means ordered list that means this list will have numbering -->
+    <!-- UL also has a attribute called type which allows to change the type of character to be shown in the list -->
+    <!-- Available type attribute values for UL is "disc", "circle", "square" -->
+    <!-- OL also has the type attribute as it is ordered list and order can be shown in multiple ways -->
+    <!-- Available type attribute values for OL is "i", "I", "a", "A", "1" -->
+    <ul type = "square">
+        <li>This is my first item of my unordered list</li>
+        <li>This is my second item of my unordered list</li>
+        <li>This is my third item of my unordered list</li>
+    </ul>
+
+    <ol type = "1">
+        <li>This is my first item of my ordered list</li>
+        <li>This is my second item of my ordered list</li>
+        <li>This is my third item of my  ordered list</li>
+    </ol>
+
+    <!-- NOTE : it is not recommended to use type attribute for OL and UL tag here because it is a style property and must be used with CSS -->
+    
+    <!-- We can also created nested lists -->
+    <ul>
+        <li>This is the first element</li>
+        <ol>
+            <li>This is the first nested element</li>
+            <li>This is the second nested element</li>
+        </ol>
+    </ul>
+
+    <!-- TABLES IN HTML -->
+    <h3>HTML Table</h3>
+    <!-- we have to use table tag to create a table inside html -->
+    <!-- We must use two another tags inside the table tag those are <thead> and <tbody> where thead represents the head of the table and tbody represents the body of the table -->
+    <!-- <tr> tag means table row tag we have to keep each row inside one tr tag -->
+    <!-- inside tr tag we have two types of tag <th> : table heading tag and <td> table description tag. Here <th> tag will be used inside the thead tag while the td will be used inside the tbody tag to write a data to a cell -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Employee Id</th>
+                <th>Employee Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Harry</td>
+                <td>4324</td>
+                <td>Programmer</td>
+            </tr>
+            <tr>
+                <td>Rohan Das</td>
+                <td>4325</td>
+                <td>HTML Expert</td>
+            </tr>
+            <tr>
+                <td>Shubham</td>
+                <td>4326</td>
+                <td>Android Developer</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

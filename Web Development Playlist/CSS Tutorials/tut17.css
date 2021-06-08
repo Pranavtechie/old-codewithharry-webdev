@@ -1,0 +1,12 @@
+p {
+  font-family: "Ubuntu", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 33px;
+  /* 1/96th of an inch */
+  line-height: 1.3em;
+}
+
+span {
+  font-weight: bold;
+  font-style: italic;
+}

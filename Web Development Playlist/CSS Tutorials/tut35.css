@@ -1,0 +1,24 @@
+:root {
+  --primary-color: blue;
+  --danger-color: red;
+  --maxw: 333px;
+}
+/* if we define the variables in the :root we can use them anywhere or else we can only use them is the selected  */
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: var(--primary-color);
+  border: 2px solid var(--danger-color);
+  box-shadow: 3px 3px var(--box-color);
+  margin: 2px 9px;
+}
+
+.container {
+  max-width: var(--maxw);
+  margin: auto;
+  background-color: var(--danger-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: var(--box-color); */
+}

@@ -1,0 +1,47 @@
+<!-- Learning Forms in HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- Forms are used to collect data from the user. All the form details are written inside the form tag -->
+    <h2>This is HTML forms tutorial</h2>
+    <!-- form has an attribute named action which is the endpoint to where the data must be sent -->
+    <form action="">
+        <!-- input tag : takes input from the user based the attribute type given some of the types are "text", "file", "email", "password" -->
+        <!-- div tag is a block level tag/element. It used to create divisions -->
+        <div>
+            Name : <input type="text" name="myName">
+        </div>
+        <div>
+            Role : <input type="text" name="myRole">
+        </div>
+        <div>
+            Email : <input type="text" name="myEmail">
+        </div>
+        <div>
+            Date :  <input type="date" name="myDate">
+        </div>
+        <div>
+            Bonus : <input type="number" name="myBonus">
+        </div>
+        <div>
+            Are you eligible : <input type="checkbox" name="myEligibility">
+            <!-- we can simply write "checked" in the box to by default check the box -->
+        </div>
+        <div>
+            Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input type="radio" name="myGender">
+        </div>
+        <div>
+            Write about yourself : <textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+</html>

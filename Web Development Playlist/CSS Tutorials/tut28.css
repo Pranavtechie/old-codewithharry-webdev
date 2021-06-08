@@ -1,0 +1,62 @@
+.container {
+  height: 544px;
+  width: 100%;
+  border: 2px solid black;
+  display: flex; /* Initialize the container as a flex box */
+
+  /* Flex properties for a flex container */
+
+  /* flex-direction: row; (Default value of flex-direction is row) */
+  /* flex-direction: column;
+            flex-direction: row-reverse;
+            flex-direction: column-reverse; */
+
+  /* flex-wrap: wrap; (Default value of flex-direction is no-wrap) */
+  /* flex-wrap: wrap-reverse; */
+
+  /* This is a shorthand for flex-direction: and flex-wrap: ;; */
+  /* flex-flow: row-reverse wrap; */
+
+  /* justify-content will justify the content in horizontal direction */
+  /* justify-content: center; */
+  /* justify-content: space-between;  spaces evenly exluding the ends*/
+  /* justify-content: space-evenly; spaces evenly including the ends*/
+  /* justify-content: space-around; gives a even space to the left and right of each element*/
+
+  /* align-items will justify the content in vertical direction */
+  /* align-items: center; aligns all the elements to the center of the container */
+  /* align-items: flex-end; sets all the elements to the end of the container*/
+  /* align-items: flex-start;  this is the default value for align-items*/
+  /* align-items: stretch; evenly (vertically) spaces the elements in the container*/
+}
+.item {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+  border: 2px solid green;
+  margin: 10px;
+  padding: 3px;
+}
+
+#item-1 {
+  /* Flex properties for a flex item */
+  /* Higher the order, later it shows up in the container */
+  /* order: 2; */
+
+  /* flex-grow: 2;  increases the width taking the value proportion of all other elements width
+  flex-shrink: 2; decreases the width taking thw value proportion of all othe elements width*/
+}
+#item-2 {
+  /* flex-grow: 3;
+  flex-shrink: 3 ; */
+  flex-basis: 160px;
+  /* when flex-direction is set to row flex-basis: will control width */
+  /* when flex-direction is set to column flex-basis: will control height */
+}
+#item-3 {
+  /* flex property is the shothand of flex-grow flex-shrink flex-basis */
+  /* flex: 2 2 230px; */
+  align-self: flex-start;
+  align-self: flex-end;
+  align-self: center;
+}

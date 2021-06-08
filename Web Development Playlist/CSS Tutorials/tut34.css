@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: left;
+}
+.card {
+  padding: 23px 12px;
+  margin: 23px 12px;
+  /* border: 2px solid red; */
+  background-color: burlywood;
+  /* box-shadow: offset-x offset-y color; */
+  /* box-shadow: offset-x offset-y blur-radius color; */
+  /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+  /* use negative values to get the shadow on the opposite side */
+  /* box-shadow: 10px 13px green; */
+  /* box-shadow: -10px -13px green; */
+  /* box-shadow: 7px 5px 10px green;
+    box-shadow: -7px -5px 10px green; */
+  /* box-shadow: -7px -5px 10px 34px green; */
+  /* box-shadow: -7px -5px 10px 34px rgba(71, 172, 172, 0.5); */
+  box-shadow: inset 3px 5px green;
+
+  box-shadow: 3px 5px green, 4px 6px red;
+}
+.card h2 {
+  /* text-shadow: 3px 4px red; */
+  /* text-shadow: 3px 2px 2px white; */
+  text-shadow: -3px -2px 2px white;
+}

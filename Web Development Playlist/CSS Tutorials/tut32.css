@@ -1,0 +1,43 @@
+.container {
+  margin: 34px 23 px;
+}
+
+.input {
+  display: block;
+}
+
+/* syntax for attribute selector : element[attribute='value'] {} */
+input[type="text"] {
+  padding: 23px;
+  border: 2px solid red;
+}
+
+a[target] {
+  font-size: 2px;
+}
+
+input[type="email"] {
+  border: 2px solid black;
+  color: darkblue;
+}
+
+/* syntax for nth-child selector : element:nth-child(number) {} */
+/* This code will apply for 3rd li in a list */
+li:nth-child(3) {
+  color: cyan;
+}
+
+/* This style will apply for every alternate li */
+li:nth-child(2n + 0) {
+  color: red;
+}
+
+/* to select odd child */
+li:nth-child(odd) {
+  background-color: lightblue;
+}
+
+/* to select even child */
+li:nth-child(even) {
+  background-color: lightgreen;
+}

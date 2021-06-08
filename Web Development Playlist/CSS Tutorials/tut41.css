@@ -1,0 +1,12 @@
+.grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 4fr;
+  grid-auto-rows: 2fr;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 1rem;
+}
+
+.box {
+  background-color: red;
+  border: 2px solid black;
+}
